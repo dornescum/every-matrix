@@ -1,10 +1,10 @@
 @import "module/col-center";
 @import "module/utils";
 
-$background: #C9C9C9;
-$box: #BDBDBD;
-$border: #aaaaaa;
-$green: #27AE60;
+//$background: #C9C9C9;
+//$box: #BDBDBD;
+//$border: #aaaaaa;
+//$green: #27AE60;
 
 .main-container {
   position: relative;
@@ -21,47 +21,6 @@ $green: #27AE60;
   .secondary-container {
     display: flex;
     justify-content: center;
-    //background: red;
-    //.col-center {
-    //  width: 700px;
-    //  margin: 0 10px 0 10px;
-    //  //position: absolute;
-    //  .center-main {
-    //    height: 58px;
-    //    width: 700px;
-    //    margin: 2px 0 2px 0;
-    //    background: $background;
-    //    display: flex;
-    //    //#c1{
-    //    .playing-teams {
-    //      .score {
-    //        width: 230px !important;
-    //        background: red !important;
-    //      }
-    //
-    //      //}
-    //
-    //    }
-    //
-    //    .booking-1 {
-    //      display: flex;
-    //      margin: 2px;
-    //    }
-    //
-    //    .booking-2 {
-    //      display: flex;
-    //    }
-    //
-    //    .booking-3 {
-    //      display: flex;
-    //    }
-    //
-    //    //todo dc nu a mers de aici?
-    //    #c9 {
-    //      height: 43px !important;
-    //    }
-    //  }
-    //}
 
     .col-left {
       position: absolute;
@@ -84,44 +43,6 @@ $green: #27AE60;
 
   }
 }
-
-//.booking {
-//  width: 50px;
-//  height: 48px;
-//  background: $box;
-//  margin: 0 3px !important;
-//  display: flex;
-//  flex-direction: column;
-//  position: relative;
-//
-//  .active-box {
-//    display: flex;
-//    justify-content: flex-end;
-//    position: absolute;
-//    width: 8px;
-//    height: 8px;
-//    right: 2px !important;
-//    top: 2px;
-//
-//    .left-box{}
-//    .right-box{
-//      border-style: solid;
-//      border-width: 0 8px 8px 8px;
-//      border-color: transparent  $green transparent transparent;
-//    }
-//  }
-//
-//  .rating {
-//    text-align: center;
-//    margin: auto;
-//  }
-//
-//  .active-border {
-//    background: $border;
-//    height: 5px;
-//    bottom: 0;
-//  }
-//}
 
 #star-box{
   background: $yellow !important;

@@ -7,5 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mihai Dornescu",
-  "license": "ISC"
+  "license": "ISC",
+  "git-repository": "https://github.com/dornescum/every-matrix"
 }

@@ -82,6 +82,7 @@
   line-height: 10px;
   text-align: center;
   margin: auto;
+  color: #F2F2F2;
 }
 .col-center .center-main .booking-2 .c2 {
   width: 55px !important;
@@ -114,7 +115,20 @@
 .col-center .center-main .favorite {
   width: 30px;
   height: 58px;
-  background: red;
+  background: #b9b9b9;
+}
+.col-center .center-main .favorite img {
+  width: 16px;
+  height: 15.2px;
+  top: 21px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  cursor: pointer;
+}
+.col-center .center-main .favorite img #svg-1:hover {
+  fill: #111;
 }
 .col-center .center-main #c9 {
   height: 43px !important;
@@ -128,6 +142,8 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  cursor: pointer;
+  color: #F2F2F2;
 }
 .booking .active-box {
   display: flex;
@@ -142,6 +158,20 @@
   border-style: solid;
   border-width: 0 8px 8px 8px;
   border-color: transparent #27AE60 transparent transparent;
+}
+.booking .active-box-br {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  right: 2px;
+  bottom: 2px;
+}
+.booking .active-box-br .right-box {
+  border-style: solid;
+  border-width: 8px 8px 0 0;
+  border-color: transparent #EB5757 transparent transparent;
 }
 .booking .rating {
   text-align: center;
