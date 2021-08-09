@@ -1,0 +1,33 @@
+@import "utils";
+.icon{
+  fill: transparent;
+  stroke: $gray;
+  stroke-width: 2;
+  cursor: pointer;
+  position: relative;
+
+  width: 16px;
+  height: 15.2px;
+  top: 21px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  .s-1{
+    overflow: visible;
+    transition: all 0.3s linear;
+    &:hover {
+      fill: blue !important;
+    }
+
+  }
+  .s-2{
+    overflow: visible;
+    transition: all 0.3s linear;
+    &:hover {
+      fill: blue !important;
+    }
+
+  }
+
+}

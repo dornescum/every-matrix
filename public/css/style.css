@@ -1,3 +1,95 @@
+.icon {
+  fill: transparent;
+  stroke: #F2F2F2;
+  stroke-width: 2;
+  cursor: pointer;
+  position: relative;
+  width: 16px;
+  height: 15.2px;
+  top: 21px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon .s-1 {
+  overflow: visible;
+  transition: all 0.3s linear;
+}
+.icon .s-1:hover {
+  fill: blue !important;
+}
+.icon .s-2 {
+  overflow: visible;
+  transition: all 0.3s linear;
+}
+.icon .s-2:hover {
+  fill: blue !important;
+}
+
+.booking {
+  width: 50px;
+  height: 48px;
+  background: #BDBDBD;
+  margin: 5px 1px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  color: #F2F2F2;
+}
+.booking:hover {
+  transition: all 0.3s linear;
+  background: #EB5757;
+}
+.booking .active-box {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  right: 2px !important;
+  top: 2px;
+}
+.booking .active-box .right-box {
+  border-style: solid;
+  border-width: 0 8px 8px 8px;
+  border-color: transparent #27AE60 transparent transparent;
+}
+.booking .active-box-br {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  right: 2px;
+  bottom: 2px;
+}
+.booking .active-box-br .right-box {
+  border-style: solid;
+  border-width: 8px 8px 0 0;
+  border-color: transparent #EB5757 transparent transparent;
+}
+.booking .rating {
+  text-align: center;
+  margin: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 6px;
+  font-family: "Roboto", sans-serif;
+  padding: 2px 0 0 0;
+}
+.booking .active-border {
+  background: black;
+  height: 4px;
+  bottom: 0;
+  opacity: 0.1;
+}
+
+#booking-1 {
+  margin-left: 0;
+}
+
 .col-center {
   width: 700px;
   margin: 0 10px 0 10px;
@@ -68,6 +160,9 @@
   display: flex;
   margin: 0 5px 0 0;
 }
+.col-center .center-main #star-box {
+  background: #F2C94C !important;
+}
 .col-center .center-main .booking-2 {
   display: flex;
   margin: 0 5px;
@@ -127,70 +222,11 @@
   position: relative;
   cursor: pointer;
 }
-.col-center .center-main .favorite img #svg-1:hover {
-  fill: #111;
+.col-center .center-main .favorite img:hover {
+  fill: red;
 }
-.col-center .center-main #c9 {
-  height: 43px !important;
-}
-
-.booking {
-  width: 50px;
-  height: 48px;
-  background: #BDBDBD;
-  margin: 5px 1px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  cursor: pointer;
-  color: #F2F2F2;
-}
-.booking .active-box {
-  display: flex;
-  justify-content: flex-end;
-  position: absolute;
-  width: 8px;
-  height: 8px;
-  right: 2px !important;
-  top: 2px;
-}
-.booking .active-box .right-box {
-  border-style: solid;
-  border-width: 0 8px 8px 8px;
-  border-color: transparent #27AE60 transparent transparent;
-}
-.booking .active-box-br {
-  display: flex;
-  justify-content: flex-end;
-  position: absolute;
-  width: 8px;
-  height: 8px;
-  right: 2px;
-  bottom: 2px;
-}
-.booking .active-box-br .right-box {
-  border-style: solid;
-  border-width: 8px 8px 0 0;
-  border-color: transparent #EB5757 transparent transparent;
-}
-.booking .rating {
-  text-align: center;
-  margin: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 6px;
-  font-family: "Roboto", sans-serif;
-}
-.booking .active-border {
-  background: black;
-  height: 4px;
-  bottom: 0;
-  opacity: 0.1;
-}
-
-#booking-1 {
-  margin-left: 0;
+.col-center #c9 {
+  height: 43px;
 }
 
 .main-container {
@@ -222,10 +258,6 @@
   left: 1043px;
   top: 80px;
   background: #C9C9C9;
-}
-
-#star-box {
-  background: #F2C94C !important;
 }
 
 /*# sourceMappingURL=style.css.map */

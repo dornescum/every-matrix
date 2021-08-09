@@ -1,9 +1,11 @@
 @import "utils";
+@import "icon";
+@import "booking";
 
 .col-center {
   width: 700px;
   margin: 0 10px 0 10px;
-  //position: absolute;
+
   .center-main {
     height: 58px;
     width: 700px;
@@ -14,7 +16,7 @@
     .playing-teams {
       margin: 1px 0 22px 5px;
       width: 220px;
-      //height: 30px;
+
       .score {
         width: 205px;
         height: 30px;
@@ -73,12 +75,15 @@
         line-height: 10px;
         color: $gray;
       }
-
     }
 
     .booking-1 {
       display: flex;
       margin: 0 5px 0 0;
+    }
+
+    #star-box {
+      background: $yellow !important;
     }
 
     .booking-2 {
@@ -100,9 +105,7 @@
 
       .c2 {
         width: 55px !important;
-
       }
-
     }
 
     .booking-3 {
@@ -120,8 +123,6 @@
           padding-bottom: 2px;
           top: 12px;
           left: 20px;
-          //left: calc(50% - 17px/2 + 0.5px);
-          //top: calc(50% - 10px/2 - 7px);
           font-weight: 400;
           font-style: normal;
           font-size: 10px;
@@ -141,110 +142,27 @@
       width: 30px;
       height: 58px;
       background: #b9b9b9;
-      //opacity: 0.2;
 
       img {
         width: 16px;
         height: 15.2px;
         top: 21px;
-        //color: $gray !important;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        //width: 50%;
-        position:relative;
+        position: relative;
         cursor: pointer;
+
+        &:hover {
+          fill: red;
+        }
       }
-      img  #svg-1:hover {
-        fill: #111;
-      }
-
-
-
     }
 
-    //todo dc nu a mers de aici?
-    #c9 {
-      height: 43px !important;
-    }
+  }
+  #c9 {
+    height: 43px;
   }
 }
 
-.booking {
-  width: 50px;
-  height: 48px;
-  background: $box;
-  margin: 5px 1px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  cursor: pointer;
-  color: $gray;
 
-  .active-box {
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    right: 2px !important;
-    top: 2px;
-
-    .left-box {
-    }
-
-    .right-box {
-      border-style: solid;
-      border-width: 0 8px 8px 8px;
-      border-color: transparent $green transparent transparent;
-    }
-  }
-  .active-box-br {
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    //right: 2px !important;
-    //top: 2px;
-    right: 2px;
-    bottom: 2px;
-
-
-    .left-box {
-    }
-
-    .right-box {
-      border-style: solid;
-      border-width: 8px 8px 0 0;
-      border-color: transparent $red transparent transparent;
-    }
-  }
-
-  .rating {
-    text-align: center;
-    margin: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 12px;
-    line-height: 6px;
-    font-family: 'Roboto', sans-serif;
-    //Weight 400
-    //Style normal
-    //Size 12px
-    //Line height 6px
-    //Align Center
-  }
-
-  .active-border {
-    background: black;
-    height: 4px;
-    bottom: 0;
-    opacity: 0.1;
-  }
-
-}
-
-#booking-1 {
-  margin-left: 0;
-}
